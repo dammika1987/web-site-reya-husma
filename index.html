@@ -1,14 +1,307 @@
 <!DOCTYPE html>
 <html lang="si">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+Sinhala:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <title>රිය හුස්ම - Riya Husma</title>
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
-  </body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>රිය හුස්ම | EMSOL නිෂ්පාදන - හම්බන්තොට</title>
+    <meta name="description" content="රිය හුස්ම (Riya Husma) - ශ්‍රී ලංකාවේ වාහන හිමියන් සඳහා EMSOL ඉන්ධන ඇමිතිකාරක.">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Sinhala:wght@300;400;600;700;900&family=Bebas+Neue&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- STICKY WHATSAPP -->
+<a href="https://wa.me/94722516924?text=EMSOL%20%E0%B6%9C%E0%B7%90%E0%B6%B1%20%E0%B6%85%E0%B6%AF%E0%B7%8F%E0%B6%BD%20%E0%B6%9C%E0%B6%B1%E0%B7%92%E0%B6%B1%E0%B7%8A%20%E0%B6%B1%E0%B7%90%E0%B6%AD%E0%B7%92%20%E0%B7%80%E0%B7%99" target="_blank" class="sticky-wa">💬</a>
+
+<!-- HEADER -->
+<header id="site-header">
+    <nav>
+        <div class="logo">
+            <span class="logo-main">රිය හුස්ම</span>
+            <span class="logo-sub">EMSOL AUTHORIZED DEALER · HAMBANTOTA</span>
+        </div>
+        <ul class="nav-links" id="nav-menu">
+            <li><a href="#why">ඇයි EMSOL?</a></li>
+            <li><a href="#products">නිෂ්පාදන</a></li>
+            <li><a href="#how">භාවිතා කරන ආකාරය</a></li>
+            <li><a href="#reviews">ප්‍රතිචාර</a></li>
+        </ul>
+        <a href="https://wa.me/94722516924?text=EMSOL%20order%20karanna%20one" target="_blank" class="nav-cta">📞 ඇණවුම් කරන්න</a>
+        
+        <button class="hamburger" id="hamburger-btn" aria-label="Toggle menu" aria-expanded="false">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+    </nav>
+</header>
+
+<!-- HERO -->
+<section class="hero" id="home">
+    <div class="hero-content">
+        <div class="hero-badge">✅ ලංකාවේ ITI සහ AA Ceylon certified</div>
+        <h1>ඔබේ රියේ <span>ශක්තිය</span><br>නැවත ලබා දෙමු</h1>
+        <p>EMSOL ඉන්ධන additive — black smoke නැති කරයි, fuel economy වැඩි කරයි, engine clean කරයි. හම්බන්තොටෙන් island wide delivery.</p>
+        <div class="hero-btns">
+            <a href="#products" class="btn-primary">🛒 Products & Prices බලන්න</a>
+            <a href="#how" class="btn-secondary">📖 Use කරන්නේ කොහොමද?</a>
+        </div>
+    </div>
+    <div class="trust-strip">
+        <div class="trust-item"><span class="trust-icon">🏢</span> Eminent International Authorized</div>
+        <div class="trust-item"><span class="trust-icon">🚚</span> Island Wide Delivery</div>
+        <div class="trust-item"><span class="trust-icon">💯</span> 100% Genuine Products</div>
+        <div class="trust-item"><span class="trust-icon">📞</span> WhatsApp Order</div>
+    </div>
+</section>
+
+<!-- WHY -->
+<section class="why-section" id="why">
+    <div class="section-label">ඇයි EMSOL?</div>
+    <div class="section-title">ඔබේ රියට <span>ඇත්තටම</span> මොකද වෙන්නේ?</div>
+    <div class="section-desc">EMSOL use කළාම ඔබට feel වෙන වෙනස්කම් 4ක්:</div>
+    <div class="benefits-grid">
+        <div class="benefit-card">
+            <div class="benefit-icon">💨</div>
+            <h3>Black Smoke නැති වෙයි</h3>
+            <p>Emission test pass කරන්න අමාරුද? EMSOL-FSC engine carbon deposits clean කරලා black smoke සම්පූර්ණයෙන් නතර කරයි.</p>
+        </div>
+        <div class="benefit-card">
+            <div class="benefit-icon">⛽</div>
+            <h3>Fuel 10-30% ඉතිරි වෙයි</h3>
+            <p>EMSOL-FE combustion efficiency වැඩි කරලා fuel consumption සැලකිය යුතු ලෙස අඩු කරයි. ඒ saving month end දැනේ.</p>
+        </div>
+        <div class="benefit-card">
+            <div class="benefit-icon">🔧</div>
+            <h3>Engine Power වැඩි වෙයි</h3>
+            <p>Injectors clean වුණාම fuel atomization හොඳ වෙලා engine response ඉක්මන් වෙයි. Acceleration feel වෙනස් වෙයි.</p>
+        </div>
+        <div class="benefit-card">
+            <div class="benefit-icon">🛡️</div>
+            <h3>Engine දිගු කාලයක් ඔරොත්තු දෙයි</h3>
+            <p>Regular use කළාම fuel system components protect වෙලා costly repairs avoid කරන්නට හේල්ව ලැබෙයි.</p>
+        </div>
+    </div>
+</section>
+
+<!-- PRODUCTS -->
+<section class="products-section" id="products">
+    <div class="section-label">Products & Prices</div>
+    <div class="section-title">ඔබේ රිය ගනන් <span>Product</span> select කරන්න</div>
+    <div class="section-desc">Diesel, Petrol, Kerosene — සියලු ඉන්ධන වලට compatible. Genuine Eminent International products.</div>
+
+    <div class="products-tabs">
+        <button class="tab-btn active-green" onclick="showTab('fsc')">🟢 EMSOL-FSC (Fuel System Cleaner)</button>
+        <button class="tab-btn" onclick="showTab('fe')">🔵 EMSOL-FE (Fuel Economizer)</button>
+    </div>
+
+    <!-- FSC -->
+    <div class="product-panel active" id="tab-fsc">
+        <div class="product-card green">
+            <div class="product-bottle"><img src="m pic/EMSOL-TAG-300x261.png" alt="FSC" style="height: 100px;"></div>
+            <div class="product-size">FSC · 9ml</div>
+            <div class="product-use">Small vehicle 1 tank<br>(~40L ඉන්ධන වලට)</div>
+            <div class="product-price">රු. 200<span class="price-label">/pkt</span></div>
+            <a href="https://wa.me/94722516924?text=EMSOL-FSC%209ml%20order%20karanna%20oni" target="_blank" class="product-order-btn">WhatsApp Order කරන්න</a>
+        </div>
+        <div class="product-card green popular">
+            <div class="product-bottle"><img src="m pic/EMSOL-TAG-300x261.png" alt="FSC" style="height: 100px;"></div>
+            <div class="product-size">FSC · 20ml</div>
+            <div class="product-use">Medium vehicle<br>(~80-100L ඉන්ධන වලට)</div>
+            <div class="product-price">රු. 350<span class="price-label">/pkt</span></div>
+            <a href="https://wa.me/94722516924?text=EMSOL-FSC%2020ml%20order%20karanna%20oni" target="_blank" class="product-order-btn">WhatsApp Order කරන්න</a>
+        </div>
+        <div class="product-card green">
+            <div class="product-bottle"><img src="m pic/EMSOL-TAG-300x261.png" alt="FSC" style="height: 100px;"></div>
+            <div class="product-size">FSC · 40ml</div>
+            <div class="product-use">Large vehicle / bus<br>(~200L ඉන්ධන වලට)</div>
+            <div class="product-price">රු. 600<span class="price-label">/pkt</span></div>
+            <a href="https://wa.me/94722516924?text=EMSOL-FSC%2040ml%20order%20karanna%20oni" target="_blank" class="product-order-btn">WhatsApp Order කරන්න</a>
+        </div>
+        <div class="product-card green">
+            <div class="product-bottle"><img src="m pic/EMSOL-TAG-300x261.png" alt="FSC" style="height: 100px;"></div>
+            <div class="product-size">FSC · 100ml</div>
+            <div class="product-use">Fleet / bulk use<br>(~500L ඉන්ධන වලට)</div>
+            <div class="product-price">රු. 1,200<span class="price-label">/bottle</span></div>
+            <a href="https://wa.me/94722516924?text=EMSOL-FSC%20100ml%20order%20karanna%20oni" target="_blank" class="product-order-btn">WhatsApp Order කරන්න</a>
+        </div>
+    </div>
+
+    <!-- FE -->
+    <div class="product-panel" id="tab-fe">
+        <div class="product-card blue">
+            <div class="product-bottle"><img src="m pic/blue-300x257.png" alt="FE" style="height: 100px;"></div>
+            <div class="product-size">FE · 9ml</div>
+            <div class="product-use">Small vehicle 1 tank<br>සෑම fuel fill කිරීමකදී</div>
+            <div class="product-price">රු. 120<span class="price-label">/pkt</span></div>
+            <a href="https://wa.me/94722516924?text=EMSOL-FE%209ml%20order%20karanna%20oni" target="_blank" class="product-order-btn">WhatsApp Order කරන්න</a>
+        </div>
+        <div class="product-card blue popular">
+            <div class="product-bottle"><img src="m pic/blue-300x257.png" alt="FE" style="height: 100px;"></div>
+            <div class="product-size">FE · 20ml</div>
+            <div class="product-use">Medium vehicle<br>සෑම fuel fill කිරීමකදී</div>
+            <div class="product-price">රු. 200<span class="price-label">/pkt</span></div>
+            <a href="https://wa.me/94722516924?text=EMSOL-FE%2020ml%20order%20karanna%20oni" target="_blank" class="product-order-btn">WhatsApp Order කරන්න</a>
+        </div>
+        <div class="product-card blue">
+            <div class="product-bottle"><img src="m pic/blue-300x257.png" alt="FE" style="height: 100px;"></div>
+            <div class="product-size">FE · 40ml</div>
+            <div class="product-use">Large vehicle<br>සෑම fuel fill කිරීමකදී</div>
+            <div class="product-price">රු. 400<span class="price-label">/pkt</span></div>
+            <a href="https://wa.me/94722516924?text=EMSOL-FE%2040ml%20order%20karanna%20oni" target="_blank" class="product-order-btn">WhatsApp Order කරන්න</a>
+        </div>
+        <div class="product-card blue">
+            <div class="product-bottle"><img src="m pic/blue-300x257.png" alt="FE" style="height: 100px;"></div>
+            <div class="product-size">FE · 100ml</div>
+            <div class="product-use">Fleet / bulk use<br>1ml per 1L ratio</div>
+            <div class="product-price">රු. 900<span class="price-label">/bottle</span></div>
+            <a href="https://wa.me/94722516924?text=EMSOL-FE%20100ml%20order%20karanna%20oni" target="_blank" class="product-order-btn">WhatsApp Order කරන්න</a>
+        </div>
+    </div>
+</section>
+
+<!-- HOW TO USE -->
+<section class="how-section" id="how">
+    <div class="section-label">Use කරන්නේ කොහොමද?</div>
+    <div class="section-title" style="color:white;">Simple Steps <span style="color:var(--green-light)">4ක්</span></div>
+    <div class="steps-grid" style="margin-top:36px;">
+        <div class="step-card">
+            <div class="step-num">1</div>
+            <h3>ඔබේ vehicle size select කරන්න</h3>
+            <p>Small car, van, bus — ඒ ඒ size ට ගැලපෙන ml size order කරන්න</p>
+        </div>
+        <div class="step-card">
+            <div class="step-num">2</div>
+            <h3>Fuel tank open කරන්න</h3>
+            <p>Fuel fill කිරීමට පෙර EMSOL packet ටික tank ට වත් කරන්න</p>
+        </div>
+        <div class="step-card">
+            <div class="step-num">3</div>
+            <h3>Fuel fill කරන්න</h3>
+            <p>ඊට පස්සේ normal ලෙස fuel fill කරන්න — mixing automatically වෙයි</p>
+        </div>
+        <div class="step-card">
+            <div class="step-num">4</div>
+            <h3>Drive කරන්න!</h3>
+            <p>First fill කිරීමෙන් ම difference feel වෙයි. Regular use කරන්නේ නම් results ලොකු වෙයි.</p>
+        </div>
+    </div>
+</section>
+
+<!-- PROOF / REVIEWS -->
+<section class="proof-section" id="reviews">
+    <div class="section-label">Customers කියන්නේ</div>
+    <div class="section-title">Real <span>Experience</span></div>
+    <div class="proof-grid" style="margin-top:36px;">
+        <div class="proof-card">
+            <div class="stars">★★★★★</div>
+            <p class="proof-text">"Bus vehicle එකට FSC 40ml use කළා. 2 weeks ඇතුළේ black smoke සම්පූර්ණයෙන් නතර වුණා. Emission test pass වුණා!"</p>
+            <div class="proof-author">
+                <div class="author-avatar">🚌</div>
+                <div>
+                    <div class="author-name">Nimal R.</div>
+                    <div class="author-detail">Bus Driver, Matara</div>
+                </div>
+            </div>
+        </div>
+        <div class="proof-card">
+            <div class="stars">★★★★★</div>
+            <p class="proof-text">"FE 20ml car ට දාගෙන යනවා. Month end ලොකු difference. Petrol 20%කට ආසන්නව save වෙනවා clearly."</p>
+            <div class="proof-author">
+                <div class="author-avatar">🚗</div>
+                <div>
+                    <div class="author-name">Kamal S.</div>
+                    <div class="author-detail">Three-Wheeler Owner, Tangalle</div>
+                </div>
+            </div>
+        </div>
+        <div class="proof-card">
+            <div class="stars">★★★★☆</div>
+            <p class="proof-text">"Delivery super fast ආවා. Products genuine. WhatsApp order process ලේසි. Island wide delivery තිබෙනවා කීවා — true."</p>
+            <div class="proof-author">
+                <div class="author-avatar">🚚</div>
+                <div>
+                    <div class="author-name">Suresh M.</div>
+                    <div class="author-detail">Lorry Owner, Hambantota</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- APPROVALS -->
+<section id="approvals">
+    <div class="section-label">විශ්වාසය සහ අනුමැතිය</div>
+    <div class="section-title" style="color:white;">ශ්‍රී ලංකාවේ <span>ප්‍රමුඛතම ආයතන</span> රැසක අනුමැතිය</div>
+    
+    <div class="card-grid" style="margin-top: 40px; display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px;">
+        <div class="card" style="text-align:center; background: rgba(255,255,255,0.05); padding: 20px; border-radius: 10px;">
+            <img src="m pic/photo_2019-01-08_14-52-14-1.jpg" alt="AA Ceylon Certificate" style="width:100%;border-radius:10px;margin-bottom:1rem;">
+            <h4 style="color: white; margin-bottom: 10px;">AA Ceylon අනුමැතිය</h4>
+            <p style="color: rgba(255,255,255,0.7); font-size: 0.9rem;">Automobile Association of Ceylon මගින් පරීක්ෂා කර නිර්දේශ කර ඇත.</p>
+        </div>
+        <div class="card" style="text-align:center; background: rgba(255,255,255,0.05); padding: 20px; border-radius: 10px;">
+            <img src="m pic/photo_2019-01-08_14-52-04.jpg" alt="SLTB Approval" style="width:100%;border-radius:10px;margin-bottom:1rem;">
+            <h4 style="color: white; margin-bottom: 10px;">ශ්‍රී ලංකා ගමනාගමන මණ්ඩලය</h4>
+            <p style="color: rgba(255,255,255,0.7); font-size: 0.9rem;">ලංගම බස් රථ සඳහා සාර්ථකව පරීක්ෂා කර අනුමත කර ඇත.</p>
+        </div>
+        <div class="card" style="text-align:center; background: rgba(255,255,255,0.05); padding: 20px; border-radius: 10px;">
+            <img src="m pic/photo_2019-01-08_14-52-20.jpg" alt="Emission Test Certificate" style="width:100%;border-radius:10px;margin-bottom:1rem;">
+            <h4 style="color: white; margin-bottom: 10px;">දුම් පරීක්ෂණ සහතිකය</h4>
+            <p style="color: rgba(255,255,255,0.7); font-size: 0.9rem;">0.00 Opacity මට්ටමක් ලබාගත් ශ්‍රී ලංකාවේ හොඳම වාර්තාව.</p>
+        </div>
+    </div>
+</section>
+
+<!-- ORDER CTA -->
+<section class="order-section" id="order">
+    <div class="order-box">
+        <h2>🛒 දැන්ම Order කරන්න</h2>
+        <p>WhatsApp ට message කරන්න — ඔබේ vehicle type සහ quantity කියන්නකෝ. Island wide delivery ලබා ගන්නට පුළුවන්.</p>
+        <div class="order-steps-mini">
+            <div class="mini-step"><span>1</span> Message කරන්න</div>
+            <div class="mini-step"><span>2</span> Confirm කරන්න</div>
+            <div class="mini-step"><span>3</span> Delivery ලැබෙයි</div>
+        </div>
+        <a href="https://wa.me/94722516924?text=Hello!%20EMSOL%20products%20%E0%B6%9C%E0%B7%90%E0%B6%B1%20%E0%B6%85%E0%B6%AF%E0%B7%8F%20%E0%B6%9C%E0%B6%B1%E0%B7%92%E0%B6%B1%E0%B7%8A%20%E0%B6%B1%E0%B7%90%E0%B6%AD%E0%B7%92.%20Order%20karanna%20one." target="_blank" class="whatsapp-btn">
+            <span class="whatsapp-icon">💬</span>
+            WhatsApp: 072 251 6924
+        </a>
+        <p class="delivery-note">📍 Hambantota | 🚚 Island Wide Delivery | 📦 Genuine Products</p>
+    </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+    <div class="footer-grid">
+        <div class="footer-col">
+            <h4>රිය හුස්ම</h4>
+            <p>Eminent International eMsol Products authorized dealer. හම්බන්තොට.</p>
+        </div>
+        <div class="footer-col">
+            <h4>Contact</h4>
+            <a href="tel:+94722516924">📞 072 251 6924</a>
+            <a href="https://wa.me/94722516924" target="_blank">💬 WhatsApp Order</a>
+            <p>📍 Hambantota, Sri Lanka</p>
+        </div>
+        <div class="footer-col">
+            <h4>Products</h4>
+            <a href="#products">EMSOL-FSC (Green)</a>
+            <a href="#products">EMSOL-FE (Blue)</a>
+            <p>Diesel · Petrol · Kerosene</p>
+        </div>
+        <div class="footer-col">
+            <h4>Certifications</h4>
+            <p>✅ AA Ceylon Approved</p>
+            <p>✅ SLTB Approved</p>
+            <p>✅ ITI Sri Lanka Tested</p>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>© 2026 රිය හුස්ම | Authorized eMsol Dealer | Hambantota, Sri Lanka</p>
+    </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
 </html>
